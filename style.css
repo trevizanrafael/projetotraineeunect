@@ -37,11 +37,31 @@ body {
     gap: 35px;
     height: 36px;
     border: none; 
-    cursor: pointer;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
+}
+
+.tipografiaBotoesHeader {
+    background-color: #f7f7fe;
+    color: var(--Colors-blue1100, #063643);
+    border: none;
+    font-family: Poppins;
     font-size: 24px;
-    color: #063643;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.tipografiaBotoesHeader:hover {
+    background-color: rgba(107, 183, 203, 0.40);
+    border-radius: 10px;
+    color: var(--Colors-blue1100, #063643);
+    border: none;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
 }
 
 .logo {
