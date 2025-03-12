@@ -14,9 +14,11 @@
     border-bottom: 2px solid #ccc; 
     padding-bottom: 10px; 
 }
+
 body {
     background-color: #e0f3f8;
 }
+
 .botoes {
     background-color: #f7f7fe;
     color: rgb(194, 191, 191);
@@ -25,6 +27,7 @@ body {
     cursor: pointer;
     font-weight: bold; 
 }
+
 .logo {
     width: 100px;
     height: 100px;
