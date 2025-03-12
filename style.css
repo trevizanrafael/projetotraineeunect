@@ -5,25 +5,18 @@
   box-sizing: border-box;
 }
 .cabecalho {
-    background-color: #f7f7fe;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
+    display: inline-flex;
+    padding: 35px 370px 35.176px 390px;
+    justify-content: flex-end;
     align-items: center;
-    border-bottom: 2px solid #ccc; 
-    padding-bottom: 10px; 
+    gap: 391px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: var(--Colors-white, #F8F8FF);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
 }
 
 body {
     background-color: #e0f3f8;
-}
-
-header {
-    background-color: #F8F8FF;
-    width: 1920px;
-    height: 140px;
-    border: 1px;
 }
 
 .menu {
@@ -36,7 +29,12 @@ header {
 
 .botoesHeader {
     background-color: #f7f7fe;
-    width: 63px;
+    display: flex;
+    width: 519px;
+    height: 36px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
     height: 36px;
     border: none; 
     cursor: pointer;
@@ -44,22 +42,13 @@ header {
     font-weight: 400;
     font-size: 24px;
     color: #063643;
-    padding-right: 4px;
-    padding-left: 4px;
-    gap: 12px;
 }
 
 .logo {
-<<<<<<< HEAD
     width: 250px;
-    height: 69.82px;
-    top: 35px;
-    left: 390px;
-=======
-    width: 100px;
-    height: 100px;
-    margin-right: 400px;
+    height: 69.824px;
 }
+
 .contato{
     width: 1180;
     height: 450;
@@ -69,5 +58,4 @@ header {
     border-radius: 8px;
     background-color: #F8F8FF; /* Cor para visualizar */
     border: 1px solid #00000026
->>>>>>> 9d8677f2643659e24399af6be0190c0d65a11f28
 }
