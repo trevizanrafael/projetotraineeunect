@@ -49,13 +49,26 @@ body {
     height: 69.824px;
 }
 
-.contato{
-    width: 1180;
-    height: 450;
-    top: 160px;
-    left: 370px;
-    border-width: 1px;
+.conteudoinicio {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos de cima para baixo */
+    align-items: center; /* Centraliza horizontalmente */
+    position: relative;
+}
+.contato {
+    width: 1180px;
+    height: 450px;
+    flex-shrink: 0;
     border-radius: 8px;
-    background-color: #F8F8FF; /* Cor para visualizar */
-    border: 1px solid #00000026
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: var(--Colors-white, #F8F8FF);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.carrossel {
+    width: 1180px;
+    height: 332px;
+    top: 640px;
+    left: 370px;
+    background-color: #63B3C9;
+    position: relative;
 }
