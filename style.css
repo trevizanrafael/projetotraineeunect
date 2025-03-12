@@ -9,10 +9,10 @@
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Alinha no centro horizontalmente /
+    justify-content: center; 
     align-items: center;
-    border-bottom: 2px solid #ccc; / Cor e espessura da linha /
-    padding-bottom: 10px; / Espaçamento opcional /
+    border-bottom: 2px solid #ccc; 
+    padding-bottom: 10px; 
 }
 body {
     background-color: #e0f3f8;
@@ -21,9 +21,9 @@ body {
     background-color: #f7f7fe;
     color: rgb(194, 191, 191);
     padding: 10px 20px;
-    border: none; / Remove a borda /
+    border: none; 
     cursor: pointer;
-    font-weight: bold; / Deixa o texto em negrito */
+    font-weight: bold; 
 }
 .logo {
     width: 100px;
