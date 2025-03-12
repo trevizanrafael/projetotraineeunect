@@ -19,18 +19,39 @@ body {
     background-color: #e0f3f8;
 }
 
-.botoes {
+header {
+    background-color: #F8F8FF;
+    width: 1920px;
+    height: 140px;
+    border: 1px;
+}
+
+.menu {
     background-color: #f7f7fe;
-    color: rgb(194, 191, 191);
-    padding: 10px 20px;
+    width: 519px;
+    height: 36px;
+    top: 52px;
+    left: 1031px;
+}
+
+.botoesHeader {
+    background-color: #f7f7fe;
+    width: 63px;
+    height: 36px;
     border: none; 
     cursor: pointer;
-    font-weight: bold;
     font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #063643;
+    padding-right: 4px;
+    padding-left: 4px;
+    gap: 12px;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    margin-right: 400px;
+    width: 250px;
+    height: 69.82px;
+    top: 35px;
+    left: 390px;
 }
