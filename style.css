@@ -50,12 +50,6 @@ header {
 }
 
 .logo {
-<<<<<<< HEAD
-    width: 250px;
-    height: 69.82px;
-    top: 35px;
-    left: 390px;
-=======
     width: 100px;
     height: 100px;
     margin-right: 400px;
@@ -69,5 +63,4 @@ header {
     border-radius: 8px;
     background-color: #F8F8FF; /* Cor para visualizar */
     border: 1px solid #00000026
->>>>>>> 9d8677f2643659e24399af6be0190c0d65a11f28
 }
